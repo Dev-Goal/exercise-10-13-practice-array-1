@@ -26,7 +26,11 @@ for (let i = 0; i < b; i++) {
 }
 alert("Mảng 2 là " + secondArray);
 
+// let thirdArray = [];
+// thirdArray.push(firstArray);
+// thirdArray.push(secondArray);
+// alert("Mảng 3 sau khi nối là " + thirdArray);
+
 let thirdArray = [];
-thirdArray.push(firstArray);
-thirdArray.push(secondArray);
-alert("Mảng 3 sau khi nối là " + thirdArray);
+thirdArray.push(firstArray,secondArray);
+document.write(thirdArray);
