@@ -16,7 +16,7 @@ let secondArray = [];
 let b;
 while (true) {
   b = Number(prompt("Nhập vào số lượng phần tử của mảng 2"));
-  if (Number.isInteger(a) && a > 0) {
+  if (Number.isInteger(b) && b > 0) {
     break;
   }
 }
