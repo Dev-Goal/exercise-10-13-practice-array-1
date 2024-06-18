@@ -17,7 +17,7 @@ if (array.includes(a) == true) {
     return element !== a;
   });
   let abcArray = filterArray.push(0);
-  alert("Dãy số ban đầu là " + array + " ||||| Dãy số lúc sau là " + filterArray);
+  alert("Dãy số ban đầu là " + array + "|||||Dãy số lúc sau là " + filterArray);
 } else {
   alert(a + " không nằm trong mảng");
 }
